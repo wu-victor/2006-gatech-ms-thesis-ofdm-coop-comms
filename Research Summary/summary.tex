@@ -1,0 +1,96 @@
+\documentclass[12]{article}
+
+\usepackage{graphicx}
+\usepackage{psfrag} 
+
+\renewcommand{\baselinestretch}{2}
+
+\begin{document}
+
+\title{Research Summary for Master's Thesis\\ Cooperative Diversity in OFDM}
+\author{Victor Kai Yuen Wu \\ 902126938}
+\maketitle
+
+\newpage
+\section{Cooperative Diversity in OFDM}
+Wireless communication systems inherently suffer from multipath propagation and channel fading.  Time diversity, space diversity, frequency diversity \cite{mybib:book_0001} and combinations of the three are traditionally used to combat these effects.  More recently, \emph{relays} situated between the transmitter and receiver are also being exploited to improve performance.  The relays are a network of transceiver nodes between the transmitter and receiver that facilitate the transfer of information.  Thus, the relay network as a whole is an equivalent channel between the transmitter and receiver.  This type of scheme is known as \emph{cooperative diversity} in the literature because the relay network is cooperating with the transmitter and receiver to improve performance.  The objective of this proposed research is to investigate cooperative diversity in orthogonal frequency division multiplexing (OFDM) systems.
+
+\section{Literature Review}
+The authors in \cite{mybib:journal_0001} provide several algorithms for relay nodes.  These include \emph{amplify-and-forward}, \emph{decode-and-forward} and \emph{selection relaying}.  In amplify-and-forward, a node simply amplifies its received signal (subject to a power constraint) before transmitting to the next node.  This algorithm is obviously with low complexity.  In decode-and-forward, a node decodes the symbols from the signal, re-encodes them and then re-transmits them.  In other words, this scheme attempts to eliminate channel distortion and noise at each node.  In selection relaying, relays only re-transmit signals if the measured receiving channel gain is above a certain threshold.  If the threshold is not reached, the relay requests a re-transmission.  In networking terminology, this is a type of automatic repeat request (ARQ) scheme.
+
+The authors in \cite{mybib:confer_0001} suggest that cellular telephony can employ cooperative diversity.  Each mobile user in a cell has another user in that cell as a partner.  When transmitting to a base station, the user also transmits to the partner.  The partner relays the signal to the base station.  In other words, the uplink channel is actually a basic single relay configuration \cite{mybib:book_0002}.
+
+\section{Proposed Research}
+Cooperative diversity uses transceiver relay nodes situated between the transmitter and receiver to facilitate the transfer of information.  The nodes form a relay network that represents the equivalent channel and noise between the transmitter and receiver.  In the proposed research, we use the physical channels and noises in the relay network to mathematically derive the equivalent channel and noise of the system level channel between the transmitter and receiver.  We consider different relay network structures.  However, the resulting system level input-output equations for the varying cases will have the same form.
+\begin{eqnarray}
+\mathbf y_k = \mathbf H_k x_k + \mathbf w_k
+\end{eqnarray}
+$x_k$ is the transmitter signal on the $k$th OFDM subchannel.  $\mathbf y_k$ is the received vector of signals on the $k$th OFDM subchannel.  $\mathbf H_k$ is the equivalent system level channel and $\mathbf w_k$ is the equivalent system level noise.  Note that in the proposed research, we are considering a single-input multiple-output OFDM (SIMO OFDM) scheme.  That is, on the $k$th subchannel, the system level input is a scalar while the system level output is a vector.
+
+In the proposed research, we evaluate the \emph{Shannon channel capacity} associated with these different relay network structures.  That is, we consider the mutual information between the transmitter and receiver on a system level and try to maximize this information.  The mutual information can be expressed as:
+\begin{eqnarray}
+\mathcal{I} = \sum_{k=1}^N \mathcal{I}_k
+\end{eqnarray} 
+where $\mathcal{I}_k$ is the mutual information on the $k$th subchannel and $N$ is the number of subchannels.  $\mathcal{I}_k$ is in turn calculated by the difference in differential entropies of the received signal vector and the noise vector.
+\begin{eqnarray}
+\mathcal{I}_k = h \left( \mathbf y_k \right) - h \left( \mathbf w_k \right)
+\end{eqnarray}
+In particular, the mutual information is a function of the power allocations among the $N$ OFDM subchannels.  That is, the transmitter and the relay nodes in the relay network can allocate the power under certain power constraints.  In traditional channel capacity calculations, the power allocation is done at the transmitter, using a waterfilling algorithm to maximize the mutual information.  However, in the proposed research, we maintain a uniform power distribution at the transmitter.  Instead, we re-allocate power (non-uniformly in general) at all the nodes in the relay network in an effort to maximize the mutual information.  We call this \emph{adaptive power allocation}.  This method of maximization exploits the cooperative diversity nature and the power re-allocation benefit of OFDM at the same time.  The research aims at saving transmitter power or equivalently, signal-to-noise ratio (SNR) for a given information transfer rate value.
+\section{Work Completed}
+\begin{figure}
+\centering
+\psfrag{Tx}[Bc][Bl]{Transmitter}
+\psfrag{Rx}[Bc][Br]{Receiver}
+\includegraphics{setup1.eps}
+\caption{Setup 1}
+\label{setup1}
+\end{figure}
+\begin{figure}
+\centering
+\psfrag{Tx}[Bc][Bl]{Transmitter}
+\psfrag{Rx}[Bc][Br]{Receiver}
+\includegraphics{setup2.eps}
+\caption{Setup 2}
+\label{setup2}
+\end{figure}
+Substantial work has been done on the relay network shown in Fig. \ref{setup2}.  In this configuration, $m$ relay nodes are situated in a single link connecting the transmitter and receiver.  We assume that each relay node in the link has knowledge of its upstream nodes' physical channels.  Based on this knowledge, the node calculates the optimal subchannel power allocation (this being adaptive power allocation) to maximize the mutual information from the transmitter up to itself.  Note that each relay node knows the power allocations of its upstream nodes because it has knowledge of its upstream channels.  In this way, the power allocations at each relay node are calculated.  Then, the resulting mutual information of the system level link is simulated.  This \emph{adaptive allocation capacity} is compared to the situation where uniform power distribution is used.
+\begin{figure}
+\centering
+\psfrag{SNR}[tc][Bc][1]{Transmitter SNR (dB)}
+\psfrag{Capacity}[Bc][tc][1]{Capacity (bits/s/Hz)}
+\psfrag{--Caa}[Bl][Bl][0.8]{$C$}
+\psfrag{--C}[Bl][Bl][0.8]{$C_u$}
+\includegraphics[width=4in]{m=03_N=064.eps}
+\caption{Capacity simulations.  $m = 3, N = 64$}
+\label{0364}
+\end{figure}
+\begin{figure}
+\centering
+\psfrag{SNR}[tc][Bc][1]{Transmitter SNR (dB)}
+\psfrag{Capacity}[Bc][tc][1]{Capacity (bits/s/Hz)}
+\psfrag{--Caa}[Bl][Bl][0.8]{$C$}
+\psfrag{--C}[Bl][Bl][0.8]{$C_u$}
+\includegraphics[width=4in]{m=04_N=064.eps}
+\caption{Capacity simulations.  $m = 4, N = 64$}
+\label{0464}
+\end{figure}
+Fig. \ref{0364} shows the results when $m=3$ relay nodes are in the link and $N=64$ OFDM subchannels are used.  $C$ is adaptive allocation capacity while $C_u$ is the uniform power distribution capacity.  We can see that there is over 2 dB of SNR gain when we use $C$ instead of $C_u$.  Fig. \ref{0464} shows the results for $m=4$ nodes.  There is even more SNR gain in this case.  This is intuitively satisfying because a longer link provides more room for improvement in terms of maximizing the mutual information.
+
+Work has been done on the relay network shown in Fig. \ref{setup1}.  In this configuration, $m$ relay nodes are situated in parallel between the transmitter and receiver.  We first consider the situation where each relay node only has knowledge of the channel between the transmitter and itself.  Next, we consider the situation where each relay node also knows the channel between itself and the receiver.  Simulations indicate that the latter case provides notable SNR gain while the former does not.  This agrees with the intuition that having more knowledge of the relay network and channels results in higher capacity values.
+\section{Work Remaining}
+For the configurations shown in Figs. \ref{setup1} and \ref{setup2}, more thorough simulations with varying parameters such as number of relay nodes, number of subchannels and type of physical channel still has to be done.  This will give a more accurate picture of the benefits of using cooperative diversity in OFDM and also reveal how the different parameters affect the capacity simulations.
+
+Different configurations involving more general relay network structures may be investigated to provide more insight into the problem.
+
+The entire thesis is to be completed by the end of the Fall 2006 term.
+\section{Facilities Needed}
+The proposed research will be pre-dominantly mathematical in nature.  That is, the theoretical framework for the research will rely on mathematical formulations of input-output relations, mutual information and capacity.  Capacity optimizations will rely on Monte Carlo simulations as the formulations will become too complex for analytical derivations.
+
+Therefore, the only required hardware facility is a computer with sufficient computing power (256 MB of RAM or more).  The software of choice is MATLAB.  These facilities are readily available in most computing laboratories in the school.
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,mybib}
+
+
+\end{document}
+

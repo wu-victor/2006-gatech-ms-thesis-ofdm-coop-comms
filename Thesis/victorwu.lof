@@ -1,0 +1,143 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Single Path Relay Network }}{5}
+\contentsline {figure}{\numberline {2}{\ignorespaces Capacity in a single path relay network with TU channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{11}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{11}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{11}
+\contentsline {figure}{\numberline {3}{\ignorespaces Capacity in a single path relay network with HT channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{12}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{12}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{12}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{12}
+\contentsline {figure}{\numberline {4}{\ignorespaces Convolutional encoder. }}{13}
+\contentsline {figure}{\numberline {5}{\ignorespaces BER in a single path relay network with TU channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{15}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{15}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{15}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{15}
+\contentsline {figure}{\numberline {6}{\ignorespaces WER in a single path relay network with TU channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{16}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{16}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{16}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{16}
+\contentsline {figure}{\numberline {7}{\ignorespaces BER in a single path relay network with HT channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{17}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{17}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{17}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{17}
+\contentsline {figure}{\numberline {8}{\ignorespaces WER in a single path relay network with HT channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{18}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{18}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{18}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{18}
+\contentsline {figure}{\numberline {9}{\ignorespaces BER in a single path relay network with TU channels using DF. $N = 128, m = 1, 2, 3$, and $4$.}}{19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{19}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{19}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{19}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{19}
+\contentsline {figure}{\numberline {10}{\ignorespaces WER in a single path relay network with TU channels using DF. $N = 128, m = 1, 2, 3$, and $4$.}}{20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{20}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{20}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{20}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{20}
+\contentsline {figure}{\numberline {11}{\ignorespaces BER in a single path relay network with HT channels using DF. $N = 128, m = 1, 2, 3$, and $4$.}}{21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{21}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{21}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{21}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{21}
+\contentsline {figure}{\numberline {12}{\ignorespaces WER in a single path relay network with HT channels using DF. $N = 128, m = 1, 2, 3$, and $4$.}}{22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{22}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{22}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{22}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{22}
+\contentsline {figure}{\numberline {13}{\ignorespaces BER in a single path relay network with TU channels using AF and DF. $N = 128, m = 1, 2, 3$, and $4$.}}{23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{23}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{23}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{23}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{23}
+\contentsline {figure}{\numberline {14}{\ignorespaces WER in a single path relay network with TU channels using AF and DF. $N = 128, m = 1, 2, 3$, and $4$.}}{24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{24}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{24}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{24}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{24}
+\contentsline {figure}{\numberline {15}{\ignorespaces BER in a single path relay network with HT channels using AF and DF. $N = 128, m = 1, 2, 3$, and $4$.}}{25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{25}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{25}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{25}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{25}
+\contentsline {figure}{\numberline {16}{\ignorespaces WER in a single path relay network with HT channels using AF and DF. $N = 128, m = 1, 2, 3$, and $4$.}}{26}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{26}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{26}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{26}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{26}
+\contentsline {figure}{\numberline {17}{\ignorespaces Multiple Path Relay Network }}{28}
+\contentsline {figure}{\numberline {18}{\ignorespaces Capacity in a multiple path relay network with TU channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{33}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{33}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{33}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{33}
+\contentsline {figure}{\numberline {19}{\ignorespaces Capacity in a multiple path relay network with HT channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{34}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{34}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{34}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{34}
+\contentsline {figure}{\numberline {20}{\ignorespaces BER in a multiple path relay network with TU channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{37}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{37}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{37}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{37}
+\contentsline {figure}{\numberline {21}{\ignorespaces WER in a multiple path relay network with TU channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{38}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{38}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{38}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{38}
+\contentsline {figure}{\numberline {22}{\ignorespaces BER in a multiple path relay network with HT channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{39}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{39}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{39}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{39}
+\contentsline {figure}{\numberline {23}{\ignorespaces WER in a multiple path relay network with HT channels using AF. $N = 128, m = 1, 2, 3$, and $4$.}}{40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{40}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{40}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{40}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{40}
+\contentsline {figure}{\numberline {24}{\ignorespaces BER in a multiple path relay network with TU channels using DF. $N = 128, m = 1, 2, 3$, and $4$.}}{41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{41}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{41}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{41}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{41}
+\contentsline {figure}{\numberline {25}{\ignorespaces WER in a multiple path relay network with TU channels using DF. $N = 128, m = 1, 2, 3$, and $4$.}}{42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{42}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{42}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{42}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{42}
+\contentsline {figure}{\numberline {26}{\ignorespaces BER in a multiple path relay network with HT channels using DF. $N = 128, m = 1, 2, 3$, and $4$.}}{43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{43}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{43}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{43}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{43}
+\contentsline {figure}{\numberline {27}{\ignorespaces WER in a multiple path relay network with HT channels using DF. $N = 128, m = 1, 2, 3$, and $4$.}}{44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{44}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{44}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{44}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{44}
+\contentsline {figure}{\numberline {28}{\ignorespaces BER in a multiple path relay network with TU channels using AF and DF. $N = 128, m = 1, 2, 3$, and $4$.}}{45}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{45}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{45}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{45}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{45}
+\contentsline {figure}{\numberline {29}{\ignorespaces WER in a multiple path relay network with TU channels using AF and DF. $N = 128, m = 1, 2, 3$, and $4$.}}{46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{46}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{46}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{46}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{46}
+\contentsline {figure}{\numberline {30}{\ignorespaces BER in a multiple path relay network with HT channels using AF and DF. $N = 128, m = 1, 2, 3$, and $4$.}}{47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{47}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{47}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{47}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{47}
+\contentsline {figure}{\numberline {31}{\ignorespaces WER in a multiple path relay network with HT channels using AF and DF. $N = 128, m = 1, 2, 3$, and $4$.}}{48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {m=1}}}{48}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {m=2}}}{48}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {m=3}}}{48}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {m=4}}}{48}

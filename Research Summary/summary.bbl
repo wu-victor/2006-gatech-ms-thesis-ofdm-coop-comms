@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{mybib:book_0001}
+J.~G. Proakis, \emph{Digital Communications}, 4th~ed.\hskip 1em plus 0.5em
+  minus 0.4em\relax New York, NY: McGraw-Hill Inc., 2001.
+
+\bibitem{mybib:journal_0001}
+J.~N. Laneman, D.~N.~C. Tse, and G.~W. Wornell, ``Cooperative diversity in
+  wireless networks: Efficient protocols and outage behavior,'' \emph{{IEEE}
+  Trans. Inform. Theory}, vol.~50, pp. 3062--3080, Dec. 2004.
+
+\bibitem{mybib:confer_0001}
+A.~Sendonaris, E.~Erkip, and B.~Aazhang, ``Increasing uplink capacity via user
+  cooperation diversity,'' in \emph{Proc. {IEEE} Int. Symp. on Inform. Theory},
+  Cambridge, MA, Aug. 1998.
+
+\bibitem{mybib:book_0002}
+T.~M. Cover and J.~A. Thomas, \emph{Elements of Information Theory}.\hskip 1em
+  plus 0.5em minus 0.4em\relax New York, NY: John Wiley $\&$ Sons, Inc., 1991.
+
+\end{thebibliography}

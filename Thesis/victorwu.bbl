@@ -1,0 +1,68 @@
+\begin{thebibliography}{10}
+
+\bibitem{book:Cover01}
+{\sc Cover, T.~M.} and {\sc Thomas, J.~A.}, {\em Elements of Information
+  Theory}.
+\newblock New York, NY: John Wiley $\&$ Sons, Inc., 1991.
+
+\bibitem{article:Telatar01}
+{\sc $\dot{\mbox{I}}$. E.~Telatar}, ``Capacity of multi-antenna gaussian
+  channels,'' {\em Eur. Trans. Telecom. ETT}, vol.~10, pp.~585--596, Nov. 1999.
+
+\bibitem{article:Hasna02}
+{\sc Hasna, M.~O.} and {\sc Alouini, M.}, ``Performance analysis of two-hop
+  relayed transmission over rayleigh-fading channels,'' in {\em Proc. {IEEE}
+  Vehicular Technology Conf.}, (Vancouver, BC, Canada), pp.~1992--1996, Sept.
+  2002.
+
+\bibitem{article:Hasna01}
+{\sc Hasna, M.~O.} and {\sc Alouini, M.}, ``Optimal power allocation for
+  relayed transmissions over rayleigh-fading channels,'' {\em IEEE Trans.
+  Wireless Commun.}, vol.~3, pp.~1999--2004, Nov. 2004.
+
+\bibitem{thesis:Laneman01}
+{\sc Laneman, J.~N.}, {\em Cooperative diversity in wireless networks:
+  algorithms and architectures}.
+\newblock PhD thesis, MIT, Cambridge, MA, Sept. 2002.
+
+\bibitem{article:Laneman01}
+{\sc Laneman, J.~N.}, {\sc Tse, D. N.~C.}, and {\sc Wornell, G.~W.},
+  ``Cooperative diversity in wireless networks: Efficient protocols and outage
+  behavior,'' {\em IEEE Trans. Inform. Theory}, vol.~50, pp.~3062--3080, Dec.
+  2004.
+
+\bibitem{article:Laneman02}
+{\sc Laneman, J.~N.}, {\sc Wornell, G.}, and {\sc Tse, D. N.~C.}, ``An
+  efficient protocol for realizing cooperative diversity in wireless
+  networks,'' in {\em Proc. {IEEE} Int. Symp. Information Theory (ISIT)},
+  (Washington D.C.), p.~294, June 2001.
+
+\bibitem{book:Proakis01}
+{\sc Proakis, J.~G.}, {\em Digital Communications}.
+\newblock McGraw-Hill Inc., fourth~ed., 2001.
+
+\bibitem{article:Ribeiro01}
+{\sc Ribeiro, A.}, {\sc Cai, X.}, and {\sc Giannakis, G.~B.}, ``Symbol error
+  probabilities for general cooperative links,'' {\em IEEE Trans. Wireless
+  Commun.}, vol.~4, pp.~1264--1273, May 2005.
+
+\bibitem{article:Sendonaris01}
+{\sc Sendonaris, A.}, {\sc Erkip, E.}, and {\sc Aazhang, B.}, ``User
+  cooperation diversity -- {P}art {I}: System description,'' {\em IEEE Trans.
+  Commun.}, vol.~51, pp.~1927--1938, Nov. 2003.
+
+\bibitem{article:Sendonaris02}
+{\sc Sendonaris, A.}, {\sc Erkip, E.}, and {\sc Aazhang, B.}, ``User
+  cooperation diversity -- {P}art {II}: Implementation aspects and performance
+  analysis,'' {\em IEEE Trans. Commun.}, vol.~51, pp.~1939--1948, Nov. 2003.
+
+\bibitem{book:Stuber01}
+{\sc St{\"{u}}ber, G.~L.}, {\em Principles of Mobile Communications}.
+\newblock Norwell, MA: Kluwer Academic Publishers, second~ed., 2001.
+
+\bibitem{article:Adve01}
+{\sc Zhao, Y.}, {\sc Adve, R.}, and {\sc Lim, T.~J.}, ``Improving
+  amplify-and-forward relay networks: Optimal power allocation versus
+  selection,''
+
+\end{thebibliography}

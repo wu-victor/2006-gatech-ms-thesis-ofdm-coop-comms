@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.5)
+The top-level auxiliary file: victorwu.aux
+The style file: gatech-thesis.bst
+Database file #1: victorwu-bib.bib
+Warning--empty journal in article:Adve01
+Warning--empty year in article:Adve01
+You've used 13 entries,
+            2221 wiz_defined-function locations,
+            617 strings with 6010 characters,
+and the built_in function-call counts, 4938 in all, are:
+= -- 501
+> -- 175
+< -- 0
++ -- 70
+- -- 56
+* -- 396
+:= -- 719
+add.period$ -- 16
+call.type$ -- 13
+change.case$ -- 65
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 245
+empty$ -- 407
+format.name$ -- 56
+if$ -- 1121
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 15
+newline$ -- 46
+num.names$ -- 26
+pop$ -- 72
+preamble$ -- 1
+purify$ -- 54
+quote$ -- 0
+skip$ -- 194
+stack$ -- 0
+substring$ -- 316
+swap$ -- 114
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 46
+warning$ -- 2
+while$ -- 41
+width$ -- 15
+write$ -- 128
+(There were 2 warnings)

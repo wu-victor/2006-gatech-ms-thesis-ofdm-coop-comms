@@ -1,0 +1,77 @@
+\documentclass{gatech-thesis}
+% The default options:
+%   \documentclass[11pt,letterpaper,oneside,%
+%       doublespaced,normalmargins,final]{gatech-thesis}
+% will generate a document that conforms to the graduate studies office
+% guidelines.
+
+%\ifx\pdfoutput\undefined
+%  \usepackage[dvips,final]{graphicx}  % using latex+dvips
+%  \usepackage[dvips,usenames]{color}
+%\else`
+%  \usepackage[pdftex,final]{graphicx} % using pdflatex
+%  \usepackage[pdftex,usenames]{color}
+%\fi
+
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{psfrag} 
+
+%define stuff in preamble
+ \degree{Master of Science}
+ \department{School of Electrical and Computer Engineering}
+ \title{OFDM-based Cooperative Communications in a Single Path Relay Network and a Multiple Path Relay Network}
+ \author{Victor Kai Yuen Wu}
+% \principaladvisor{Ye (Geoffrey) Li}
+% \committeechair{Committee Chair Name}
+% \firstreader{Ye (Geoffrey) Li, Advisor\\School of Electrical and Computer Engineering}
+% \secondreader{Second Reader Name - Prof St\"uber}
+% \thirdreader{Third Reader Name}
+\submitdate{December 2006}
+% \copyrightyear{Copyrightyear (add one if thesis submitted in Dec.)} %add one if thesis submitted in Dec.
+
+% \thesisproposalfalse       % default
+
+% \titlepagetrue             % default
+% \signaturepagetrue         % default
+% \copyrightfalse            % default
+% \figurespagetrue           % default
+% \tablespagetrue            % default
+% \contentspagetrue          % default
+% \dedicationheadingfalse    % default
+% \bibpagetrue               % default
+% \strictmarginstrue         % default
+
+\bibfiles{victorwu-bib}
+
+\begin{document}
+\bibliographystyle{gatech-thesis}
+\setchaptertocdepth{2}
+%
+\begin{preliminary}
+%\begin{dedication}
+%\input{victorwu-dedication}
+%\end{dedication}
+\begin{acknowledgements}
+\input{victorwu-ack}
+\end{acknowledgements}
+%
+\contents
+%
+\begin{summary}
+\input{victorwu-summary}
+\end{summary}
+\end{preliminary}
+%
+\input{victorwu-chapter1}
+\input{victorwu-chapter2}
+\input{victorwu-chapter3}
+\input{victorwu-chapter4}
+%\appendix
+\begin{postliminary}
+\references
+%\begin{vita}
+%\input{victorwu-vita}
+%\end{vita}
+\end{postliminary}
+\end{document}
